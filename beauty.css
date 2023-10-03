@@ -1,0 +1,176 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(234, 234, 234);
+    margin: 0%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+}
+
+.nav>li>a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+.logo{
+    color: green;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.logo-imange{
+    background-image: url(Images/Beauty.png);
+}
+
+.header-info span{
+    padding-right: 15px;
+}
+.header-info button{
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 2px solid  rgb(91, 187, 91);
+}
+.header-info button:hover{
+    background-color:  rgb(91, 187, 91);
+}
+
+hr{
+    margin: 0;
+}
+.header-nav ul{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    margin-top: 0%;
+    font-size: 16px;
+    font-weight: 400;
+}
+section h1{
+    color: white;
+}
+
+.banner{
+    background-image: url(https://annblok.github.io/Beauty/img/bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 170px;
+    padding-right: 20px;
+    padding-top: 159px; 
+    padding-bottom: 170px;
+    margin-top: 0%;
+    display: block;
+    justify-content: space-between;
+}
+#SuperH{
+    font-size: 48px;
+    font-weight: 700;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.banner p{
+    color: white;
+    margin-bottom: 55px;
+    max-width: 350px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.item{
+    justify-content: center;
+    background-color: rgb(91, 187, 91);
+    color: white;
+    padding: 34px 41px;
+    display: flex;
+    max-width: 1110px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.item-left{
+   padding-right: 450px;
+
+}
+.item-left input{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 9px 15px;
+    width: 100%;
+    max-width: 225px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 23px;
+    background-color: #fff;
+    /*max-width: 1110px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 20px;
+}
+.footer-info span{
+    padding-right: 50px;
+
+}
+.footer-info button{
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 2px solid  rgb(91, 187, 91);
+}
+.footer-info button:hover{
+    background-color:  rgb(91, 187, 91);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-item{
+    margin-right: 20px;
+}
+.social-youtube {
+    background-image: url(../img/youtube.svg);
+}
+.social-vk {
+    background-image: url(../img/vk.svg);
+}
+.social-fb {
+    background-image: url(../img/facebook.svg);
+}
+.social-instagram {
+    background-image: url(https://yandex.kz/images/search?from=tabbar&img_url=https%3A%2F%2Fwww.tmp20-school.ru%2Fimages%2FInstagram-logo.png&lr=163&pos=3&rpt=simage&text=logo%20instagram);
+}
+
